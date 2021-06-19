@@ -18,13 +18,13 @@ return(big);
 
 //minimum
 
-int max(int a[],int b)
+int min(int a[],int b)
 {
 int small=a[0];
 
 for(int i=0;i<b;i++)
 {
-if(a[i]<big)
+if(a[i]<small)
 {
 small=a[i];
 }
