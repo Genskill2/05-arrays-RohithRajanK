@@ -40,7 +40,8 @@ for(int i=0;i<b;i++)
 {
 avg=avg+a[i];
 }
-return(avg);
+int total=avg/b;
+return(total);
 }
 
 
