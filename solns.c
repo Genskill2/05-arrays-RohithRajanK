@@ -22,7 +22,7 @@ int max(int a[],int b)
 {
 int small=a[0];
 
-for(int i=o;i<b;i++)
+for(int i=0;i<b;i++)
 {
 if(a[i]<big)
 {
@@ -50,7 +50,7 @@ int mode(int a[], int b)
 {
 int big=a[0];
 
-for(int i=o;i<b;i++)
+for(int i=0;i<b;i++)
 {
 if(a[i]>big)
 {
@@ -58,7 +58,7 @@ big=a[i];
 }
 }
 int count[big+1];
-for(int j=0;i<big+1;j++)
+for(int j=0;j<big+1;j++)
 {
 count[j]=0;
 for(int i=0;i<big+1;i++)
@@ -70,7 +70,7 @@ count[j]=count[j]+1;
 }
 }
 int big1;
-for(int i=o;i<big+1;i++)
+for(int i=0;i<big+1;i++)
 {
 if(count[i]>big1)
 {
@@ -78,7 +78,7 @@ big1=count[i];
 }
 }
 int value;
-for(int i=o;i<big+1;i++)
+for(int i=0;i<big+1;i++)
 {
 if(count[i]==big1)
 {
