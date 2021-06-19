@@ -6,7 +6,7 @@ int max(int a[],int b)
 {
 int big=a[0];
 
-for(int i=o;i<b;i++)
+for(int i=0;i<b;i++)
 {
 if(a[i]>big)
 {
